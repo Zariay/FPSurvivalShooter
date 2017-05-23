@@ -15,6 +15,7 @@ public class PlayerShooting : MonoBehaviour
     LineRenderer gunLine;
     AudioSource gunAudio;
     Light gunLight;
+    public GameObject gun;
     float effectsDisplayTime = 0.2f;
 
 
@@ -63,10 +64,10 @@ public class PlayerShooting : MonoBehaviour
         gunParticles.Play ();
 
         gunLine.enabled = true;
-        gunLine.SetPosition (0, transform.position);
+        gunLine.SetPosition (0, gun.transform.position);
 
-        shootRay.origin = transform.position;
-        shootRay.direction = transform.forward;
+        shootRay.origin = gun.transform.position;
+        shootRay.direction = gun.transform.forward;
 
         if(Physics.Raycast (shootRay, out shootHit, range, shootableMask))
         {
