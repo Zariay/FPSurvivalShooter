@@ -202,18 +202,18 @@ Prefab:
         type: 2}
       propertyPath: gun
       value: 
-      objectReference: {fileID: 362489790}
+      objectReference: {fileID: 992300138}
     - target: {fileID: 4368597194898952, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.122
+      value: -0.161
       objectReference: {fileID: 0}
     - target: {fileID: 4368597194898952, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.973
+      value: 0.975
       objectReference: {fileID: 0}
     - target: {fileID: 4368597194898952, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.281
+      value: 0.293
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -332,11 +332,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 302134613}
---- !u!1 &362489790 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1734828894781536, guid: 5e9e851c0e142814dac026a256ba2ac0,
-    type: 2}
-  m_PrefabInternal: {fileID: 64995967}
 --- !u!1 &622301684 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -449,7 +444,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1805154904
+  randomSeed: -1459311323
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3688,7 +3683,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -787133063
+  randomSeed: -1873567228
   InitialModule:
     serializedVersion: 3
     enabled: 1
