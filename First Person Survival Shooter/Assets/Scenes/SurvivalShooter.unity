@@ -607,7 +607,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -393370282
+  randomSeed: -2055852495
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4380,7 +4380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.5
-  attackDamage: 10
+  attackDamage: 1
 --- !u!195 &1849090781
 NavMeshAgent:
   m_ObjectHideFlags: 0
