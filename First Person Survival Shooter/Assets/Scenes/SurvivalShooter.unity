@@ -197,12 +197,24 @@ Prefab:
         type: 2}
       propertyPath: damageImage
       value: 
-      objectReference: {fileID: 1594971572}
+      objectReference: {fileID: 1136836816}
     - target: {fileID: 114815244112600634, guid: 5e9e851c0e142814dac026a256ba2ac0,
         type: 2}
       propertyPath: gun
       value: 
       objectReference: {fileID: 362489790}
+    - target: {fileID: 4368597194898952, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.122
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368597194898952, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.973
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368597194898952, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.281
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -437,7 +449,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 1890689824
+  randomSeed: -1805154904
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3676,7 +3688,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 539401191
+  randomSeed: -787133063
   InitialModule:
     serializedVersion: 3
     enabled: 1
