@@ -28,7 +28,7 @@ GameObject:
   - component: {fileID: 82915251123736384}
   - component: {fileID: 54139483600656960}
   - component: {fileID: 195060690635693424}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ZomBear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4169173946790812}
   - component: {fileID: 137686119942611120}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Zombear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
