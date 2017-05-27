@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.FirstPerson;
 
 
 public class PlayerHealth : MonoBehaviour
@@ -17,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
 
     Animator anim;
     AudioSource playerAudio;
-    PlayerMovement playerMovement;
+    FirstPersonController playerMovement;
     PlayerShooting playerShooting;
     bool isDead;
     bool damaged;
@@ -26,7 +27,7 @@ public class PlayerHealth : MonoBehaviour
     void Awake ()
     {
         playerAudio = GetComponent <AudioSource> ();
-        playerMovement = GetComponent <PlayerMovement> ();
+        playerMovement = GetComponent<FirstPersonController>();
         playerShooting = GetComponentInChildren <PlayerShooting> ();
         currentHealth = startingHealth;
     }
